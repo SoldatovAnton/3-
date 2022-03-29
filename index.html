@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>JS start</title>
+</head>
+
+<body>
+   <header>
+      <div class="header___text">
+         <p>JavaScript</p>
+      </div>
+   </header>
+
+   <main>
+      <div class="container">
+         <div class="main-info" id="main-info">
+            <div class="main-info__content">
+               <div class="main-info__left-side">
+                  <h1 class="main-info__title first__title">Что такое JavaScript?</h1>
+                  <img src="img/main_img.jpg" alt="main_img" class="main-info__img">
+               </div>
+               <div class="main-info__right-side">
+                  <ul class="main-info__buttons">
+                     <li class="main-info__wrap-btn">
+                        <button class="main-info__change active" type="button">Что это?</button>
+                     </li>
+                     <li class="main-info__wrap-btn">
+                        <button class="main-info__change" type="button">Это сложно?</button>
+                     </li>
+                     <li class="main-info__wrap-btn">
+                        <button class="main-info__change" type="button">Что изучать до?</button>
+                     </li>
+                  </ul>
+                  <p class="main-info__text">
+                     JavaScript — это лучший друг HTML и CSS. HTML задает разметку сайта, CSS отвечает за внешний
+                     вид,
+                     а
+                     JavaScript все это оживляет. С помощью кода на JavaScript программист определяет, как
+                     страница
+                     отреагирует на действия пользователя. <br>
+                     Сейчас JavaScript — единственный язык программирования для браузеров. Он работает под
+                     Windows,
+                     macOS,
+                     Linux и на мобильных платформах, то есть везде. Если не знаешь JavaScript, делать в
+                     программировании
+                     интерактивных сайтов нечего.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="forms" id="demo">
+            <h1 class="main-info__title">Демонстрация</h1>
+            <div class="form__container">
+               <form class="form__square" name="square" id="form__square" action="#">
+                  <h3>Площадь треугольника</h3>
+                  <label for="squareInp" class="form__item">Введите основание и высоту треугольника через
+                     пробел:</label>
+                  <input type="text" name="squareInp" class="form__item string__input">
+                  <input type="submit" class="form__item form__btn">
+                  <p class="fieldEmpty1">Поле не заполнено</p>
+               </form>
+
+               <form action="#" name="strings" class="form__strings">
+                  <h3>Длина строк</h3>
+                  <label for="string__input" class="form__item">Введите две строки через пробел:</label>
+                  <input type="text" name="string__input" class="form__item string__input">
+                  <input type="submit" class="form__item form__btn">
+                  <p class="fieldEmpty2">Поле не заполнено</p>
+               </form>
+
+               <form action="#" name="extArray" class="extr__array">
+                  <h3>Максимум и минимум</h3>
+                  <label for="array__input" class="form__item">Введите массив чисел:</label>
+                  <input type="text" name="array__input" class="form__item array__input">
+                  <input type="submit" class="form__item form__btn">
+                  <p class="fieldEmpty2">Поле не заполнено</p>
+               </form>
+
+               <div class="timer">
+                  <div class="timer__counter">
+                     <h1 class="counter">00:00</h1>
+                  </div>
+                  <div class="timer__buttons">
+                     <div class="timer__btn-wrapper">
+                        <button class="btn__start timer__btn">Старт</button>
+                     </div>
+                     <div class="timer__btn-wrapper">
+                        <button class="btn__stop timer__btn">Стоп</button>
+                     </div>
+                     <div class="timer__btn-wrapper">
+                        <button class="btn__reset timer__btn">Сброс</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="test" id="test">
+            <h1 class="main-info__title">Тест</h1>
+            <form action="#" class="test__form" name="testForm">
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Как вывести "Привет" пользователю?</label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Как добавить код html с тегами и классами через
+                     JS?</label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Какой метод добавляет обработчик событий?</label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Что выведется в консоль?</label>
+                  <label for="test__input" class="form__item">
+                     <pre>
+    let a = 0;
+    for (let i = 0; i < 4; i++) {
+        a += i;
+    }
+    console.log(a)
+                        </pre>
+                  </label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Как получить элемент по ID?</label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Что выведется в консоль?</label>
+                  <label for="test__input" class="form__item">
+                     <pre>
+    console.log(5 + 10 + '80')
+                        </pre>
+                  </label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Что выведется в консоль?</label>
+                  <label for="test__input" class="form__item">
+                     <pre>
+    let usersAge = {
+        John: 18,
+        Ann: 16,
+        Pete: 19
+    }
+    usersAge.Ann = 17;
+    console.log(usersAge.Ann)
+                        </pre>
+                  </label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Какой метод объединяет два массива в JS?</label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Что выведется в консоль?</label>
+                  <label for="test__input" class="form__item">
+                     <pre>
+    console.log(10 > 7? 11 : 9) 
+                        </pre>
+                  </label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="questinos__wrapper">
+                  <label for="test__input" class="form__item">Какая функция возвращает наибольшее из чисел?</label>
+                  <input type="text" name="test__input" class="form__item test__input">
+               </div>
+
+               <div class="result__container">
+                  <input type="submit" class="form__item form__btn">
+                  <button class="result__test" type="button">Результат</button>
+               </div>
+
+            </form>
+         </div>
+      </div>
+   </main>
+
+   <div class="modal">
+      <div class="modal__window">
+         <div class="modal__user">
+
+         </div>
+         <div class="result">
+
+         </div>
+         <div class="modal__date-time">
+
+         </div>
+      </div>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
